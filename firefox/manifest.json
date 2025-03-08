@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2, 
+    "name": "Instagram Redirect",
+    "version": "1.0",
+    "description": "Redirects certain Instagram pages to the direct inbox.",
+    "permissions": [
+      "webNavigation",
+      "tabs",
+      "*://*.instagram.com/*"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
